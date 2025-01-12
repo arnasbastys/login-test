@@ -1,0 +1,19 @@
+{
+  "name": "login-test",
+  "version": "1.0.0",
+  "description": "Login test",
+  "repository": "git@github.com:arnasbastys/login-test.git",
+  "author": "arnasbastys <arnas.bastys@gmail.com>",
+  "scripts": {
+    "playwright-headed": "npx playwright test --headed",
+    "playwright-headless": "npx playwright test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.5",
+    "dotenv": "^16.4.7",
+    "otplib": "^12.0.1",
+    "typescript": "^5.7.3"
+  }
+}
